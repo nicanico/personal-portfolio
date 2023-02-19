@@ -1,0 +1,44 @@
+.n-wrapper{
+    display: flex;
+    height: 10vh;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+.n-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 2rem;
+}
+.n-name{
+    display: flex;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 300;
+}
+.n-name> span{
+    color: #54A8F7;
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.n-list{
+    flex: 10;
+}
+.n-list ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 78px;
+    
+}
+.n-list li{
+    border-bottom: 1px solid transparent;
+    transition: border-color 1s;
+}
+.n-list li:hover{
+    color: var(--blue);
+    border-color: var(--blue)
+}
