@@ -10,7 +10,6 @@ const Header = () => {
                     <p>nicole</p>
                     <span>&#125;</span>
                 </div>
-                <span>toggle</span>
             </div>
             <div className="n-right">
                 <div className="n-list">

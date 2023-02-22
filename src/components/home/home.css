@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    height: 77vh;
+    align-items: center;
+    place-content: center;
+    gap: 90px;
+}
+.h-right{
+    position: relative;
+}
+.h-name{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+.h-profession{
+    font-size: 48px;
+    font-style: italic;
+}
+.full{
+    color: var(--blue);
+}
+.h-contacts{
+    display: flex;
+    
+    gap: 12px;
+}
+.h-contact{
+    width: 134px;
+    height: 35px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.social-item{
+    color: var(--blue);
+    font-size: 30px;
+}
+.console{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+.hello{
+    font-family: 'Inter', sans-serif;
+    color: var(--blue);
+    font-size: 12px;
+}

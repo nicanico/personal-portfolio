@@ -3,6 +3,7 @@
     height: 10vh;
     margin-top: 22px;
     justify-content: space-between;
+    place-content: center;
 }
 .n-left{
     display: flex;
