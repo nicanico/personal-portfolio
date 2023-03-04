@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    height: 77vh;
+    align-items: center;
+    place-content: center;
+    gap: 293px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #54A8F7;
+    font-size: 3rem;
+}
+.linha{
+    height: 1px;
+    width: 372px;
+    background-color: #54A8F7;
+}
+.sobre-mim{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    width: 29rem;
+}
+.frase{
+    color:#54A8F7;
+    font-family: 'Inter', sans-serif;
+}
+.titulo-soft{
+    font-weight: 600;
+    color: #54A8F7;
+}
+.a-button{
+    width: 134px;
+    height: 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}

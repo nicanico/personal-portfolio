@@ -4,7 +4,7 @@ import Icon from '../../img/icon-principal.png';
 
 const Home = () =>{
     return(
-        <div className="home">
+        <div id="home" className="home">
             <div className="h-left">
                 <img src={Icon} alt="" />
             </div>

@@ -3,7 +3,7 @@ import './about.css'
 
 const About = () => {
     return(
-        <div className="about">
+        <div id="about" className="about">
             {/* left side */}
             <div className="sobre">
                 <h2 className="titulo">Quem sou?</h2>
@@ -13,10 +13,11 @@ const About = () => {
                     de sites com conhecimento em design e prototipagem visando sempre a experiência do 
                     usuário e melhores soluções para facilitar e unir as pessoas através do mundo digital.
                 </p>
-                <p>
+                <p className="sobre-mim">
                     Procuro sempre inspiração em meus colegas de equipe e no mundo em que me rodeio, 
                     pois desenvolver algo é o <span className="frase">conjunto de arte e engenharia</span>.
                 </p>
+                <button className="button a-button">Dowloand CV</button>
             </div>
 
             {/* right side */}
